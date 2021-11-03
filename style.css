@@ -1,0 +1,34 @@
+body {
+  transition: background-color 0.5s ease-in-out;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.interactive {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  width: 200px;
+  height: 200px;
+  border: 2px black solid;
+}
+
+.intro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: beige;
+  text-align: center;
+}
+
+.beans {
+  align-self: center;
+  justify-self: center;
+  font-family: "Comic Sans MS";
+}
